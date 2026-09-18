@@ -1,0 +1,13 @@
+interface:
+  display_name: Reference
+  short_description: 快速匹配Crossref并生成带跳转链接的正文引用与参考文献
+  default_prompt: 使用 $reference 按指定格式处理这篇Word正文，生成相互链接的正文引用和文末参考文献。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
